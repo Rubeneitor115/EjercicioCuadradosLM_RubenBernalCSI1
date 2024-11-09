@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.primera{
+	filter: drop-shadow(-15px 15px 0px green)
+			drop-shadow(15px -15px 0px red)
+			drop-shadow(15px 15px 0px blue)
+			drop-shadow(15px 15px 0px yellow);
+}
+
+.segunda{
+	border-radius: 50%;
+	filter: drop-shadow(15px 15px 0px yellow);
+}
+
+.tercera{
+	filter: drop-shadow(15px 15px 0px blue)
+			drop-shadow(15px 15px 0px yellow);
+}
+
+.proporcion{
+	aspect-ratio: 16/9;
+}
